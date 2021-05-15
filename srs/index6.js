@@ -30,3 +30,16 @@ add(2, 5, 8); // 15
 console.log(add(15, 27, 10));
 console.log(add(10, 20, 30));
 console.log(add(5, 10, 15));
+/*========задание 10=========*/
+function makeMessage (name, price) {
+   const message = `You picked ${name}, price per item is ${price} credits`;
+  // Change code above this line
+  return message;
+};
+/*==========задание 11========*/
+function calculateTotalPrice (orderedQuantity, pricePerItem) {
+  const totalPrice = (orderedQuantity * pricePerItem);
+
+  // Change code above this line
+  return totalPrice;
+};
